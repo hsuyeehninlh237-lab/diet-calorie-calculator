@@ -81,7 +81,8 @@ else:
     goal_text = "maintain weight"
 
 print(f"To {goal_text}, your daily calorie target is: {target_calories:.2f} kcal/day")
-print(f"Your estimated Basal Metabolic Rate (BMR): {bmr:.2f} kcal/day")print("\n--- Calorie Comparison ---")
+print(f"Your estimated Basal Metabolic Rate (BMR): {bmr:.2f} kcal/day")
+print("\n--- Calorie Comparison ---")
 print(f"Your target daily calories: {target_calories:.2f} kcal")
 print(f"Your estimated daily intake: {daily_intake:.2f} kcal")
 
