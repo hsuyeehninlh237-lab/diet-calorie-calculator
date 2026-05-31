@@ -4,8 +4,7 @@ import sys
 !{sys.executable} -m pip install streamlit
 
 print('Streamlit installation attempt complete. Please re-run the Streamlit appimport streamlit as st
-import math
-
+import math)
 st.set_page_config(page_title="Personal Calorie Calculator", layout="centered")
 st.title('🍎 Personal Calorie Calculator')
 st.write('Calculate your BMR, target calories, and compare with your intake!')
