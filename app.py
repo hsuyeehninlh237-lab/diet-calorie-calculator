@@ -1,16 +1,7 @@
-import sys
-
-# Reinstall streamlit to ensure it's available
-!{sys.executable} -m pip install streamlit
-
-print('Streamlit installation attempt complete. Please re-run the Streamlit appimport streamlit as st
-import math)
 st.set_page_config(page_title="Personal Calorie Calculator", layout="centered")
 st.title('🍎 Personal Calorie Calculator')
 st.write('Calculate your BMR, target calories, and compare with your intake!')
-
 st.header('--- User Information Input ---')
-
 with st.form("user_input_form"):
     age = st.number_input("Enter your age (years):", min_value=1, max_value=120, value=30)
     gender = st.radio("Enter your gender:", ('male', 'female'))
